@@ -1,0 +1,14 @@
+.productsGrid {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 10px; /* Add gap between grid items if needed */
+    
+  }
+  
+  
+.product {
+    background-color: #eee; /* Set background color of grid items */
+    padding: 10px; /* Add padding to grid items if needed */
+}

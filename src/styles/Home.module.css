@@ -1,0 +1,21 @@
+.App {
+  background: #dadada;
+}
+
+.feed {
+  display: block;
+  height: auto;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.feed::-webkit-scrollbar {
+  width: 0;
+  opacity: 0;
+}
+
+.footer{
+  position: relative;
+  background-color: blue;
+  height: 40px;
+}

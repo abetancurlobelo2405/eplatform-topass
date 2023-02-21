@@ -1,0 +1,34 @@
+.body{
+    margin: 0;
+    padding: 0;
+  }
+
+
+.wrapper{
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+    display: none;
+    opacity: 0;
+}
+
+.section{
+    scroll-snap-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #de5448;
+    color: #fff;
+    font-size: 3em;
+}
+
+.section::-webkit-scrollbar {
+    width: 0;
+    display: none;
+    opacity: 0;
+}
